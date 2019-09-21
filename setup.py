@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-VERSION = '1.0.4'
+VERSION = '1.0.5'
 
 setup(
     name='ingrunTools',  # 库的名称,一般写成文件夹的名字就可以了 pip install 'XXX'
@@ -20,7 +20,7 @@ setup(
     packages=['ingrunTools'],  # 发布的包名
     # packages=find_packages(),
     platforms=["all"],
-    url='https://github.com',   # 这个是连接，一般写github就可以了，会从pypi跳转到这里去
+    url='https://github.com/ingRun/ingrunTools',   # 这个是连接，一般写github就可以了，会从pypi跳转到这里去
     classifiers=[
         'Development Status :: 4 - Beta',
         'Operating System :: OS Independent',

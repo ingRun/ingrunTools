@@ -32,7 +32,7 @@ class get_user_info(APIView):
 
 ```python
 # get_random_list(max, length, min)  返回一个包含随机不重复整数的列表
-# get_random_data_list(li, length) 随机返回一个列表的一部分
+# get_random_data_list(li, length) 随机返回一个列表的一部分 不重复
 
 # 栗子:
 

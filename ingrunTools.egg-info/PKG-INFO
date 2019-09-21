@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: ingrunTools
-Version: 1.0.4
+Version: 1.0.5
 Summary: 个人工具 用于 django 开发 
-Home-page: https://github.com
+Home-page: https://github.com/ingRun/ingrunTools
 Author: ingrun
 Author-email: ingrun@163.com
 License: BSD License
@@ -40,7 +40,7 @@ Description: # ingrunTools
         
         ```python
         # get_random_list(max, length, min)  返回一个包含随机不重复整数的列表
-        # get_random_data_list(li, length) 随机返回一个列表的一部分
+        # get_random_data_list(li, length) 随机返回一个列表的一部分 不重复
         
         # 栗子:
         
