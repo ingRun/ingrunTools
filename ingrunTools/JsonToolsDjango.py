@@ -45,7 +45,7 @@ def get_json_models(ser,  data, code=None, msg=None):
     msg = __get_msg(code, msg)
     ser2 = ser(data, many=(not isinstance(data, models.Model)))
     dick = {'code': code, 'msg': msg, 'data': ser2.data}
-    return json.dumps(dick, ensure_ascii=False)
+    return HttpResponse(json.dumps(dick, ensure_ascii=False))
 
 
 def __get_code(data, code=None):
